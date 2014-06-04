@@ -1,5 +1,5 @@
-#' cstar.
+#' rstar.
 #'
-#' @name cstar
+#' @name rstar
 #' @docType package
 NULL
