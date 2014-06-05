@@ -13,4 +13,4 @@ Once you have installed the `rstar` package, it can be loaded in the regular man
 library(rstar)
 ````
 
-This package is currently under development. Check back soon for more features.
+**This package is currently under development. Check back soon for more features.**
