@@ -2,7 +2,7 @@
 
 This R package provides complimentary code for the ADMB [Cstar](https://github.com/awhitten/cstar) Library. The latest version can be downloaded via the `devtools` package in R and the following commands:
 
-```
+```S
 install.packages("devtools")
 devtools::install_github("awhitten/rstar")
 ```
