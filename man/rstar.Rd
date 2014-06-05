@@ -3,8 +3,13 @@
 \name{rstar}
 \alias{rstar}
 \alias{rstar-package}
-\title{rstar.}
+\title{Rstar: R Stock Assessment Routines}
 \description{
-rstar.
+Rstar provides complimentary R code to the ADMB Cstar Library.
+It allows users to test Cstar functions and experiment with alternative parameterisations.
+This may assist with setting initial parameters for Cstar functions when developing stock assessment models.
+}
+\details{
+Extra details will go here.
 }
 
