@@ -5,9 +5,11 @@
 \alias{rstar-package}
 \title{Rstar: R Stock Assessment Routines}
 \description{
-Rstar provides complimentary R code to the ADMB Cstar Library.
-It allows users to test Cstar functions and experiment with alternative parameterisations.
-This may assist with setting initial parameters for Cstar functions when developing stock assessment models.
+The Rstar package provides complimentary code to the Cstar Library
+for ADMB. Each of the common stock assessment functions available in the
+Cstar Library is also available as an R function for testing purposes.
+Users of Cstar functions might find it helpful to first experiment with
+parameter values for any particular function by using this R package.
 }
 \details{
 Extra details will go here.

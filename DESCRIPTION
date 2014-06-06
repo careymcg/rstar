@@ -4,7 +4,7 @@ URL: https://github.com/awhitten/rstar
 Version: 0.1
 Maintainer: Athol Whitten <awhitten@gmail.com>
 Author: Athol Whitten <awhitten@gmail.com>
-Description: The rstar package provides complimentary code to the Cstar Library
+Description: The Rstar package provides complimentary code to the Cstar Library
     for ADMB. Each of the common stock assessment functions available in the
     Cstar Library is also available as an R function for testing purposes.
     Users of Cstar functions might find it helpful to first experiment with
