@@ -17,24 +17,6 @@ vals.logistic <- logistic(vals.length,mu,sd)
 plot(vals.length,vals.logistic,col="Red")
 
 # ------------------------------------------------------------------------------------------
-# Definition of logLogistic function:
-loglogistic <- function(length,mu,sd){
-  log((1.0)/((1.0)+exp(-(length-mu)/sd)))}
-
-# Need to check with Jim/Steve how this would work: Seems no solution possible...
-
-# Example for log logistic curve:
-length <- c(76.3212, 94.9654, 114.906, 134.737, 154.402)
-mu <- 50
-sd <- 2
-
-loglogistic(length,mu,sd)
-
-vals.length <- 50:160
-vals.loglogistic <- loglogistic(vals.length,mu,sd)
-plot(vals.length,vals.loglogistic,col="Red")
-
-# ------------------------------------------------------------------------------------------
 # Definition of Logistic95 function:
 logistic95 <- function(length,s50,s95){
   seltmp <- 1/(1+(exp(-log(19)*((length-s50)/(s95-s50)))))
